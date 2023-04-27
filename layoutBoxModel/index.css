@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#Header{
+    width: 100%;
+    height: 140px;
+    background-color:#00590a;
+    float: left;
+    position: relative;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#MainContent{
+    width: 100%;
+    height: calc(100% - 280px);
+    background-color: #c6ebc8;
+}
+
+#Panel{
+    width: 15%;
+    height: 100%;
+    float: right;
+    position: relative;
+    background-color: #ffffff;
+}
+
+#LeftPanel{
+    width: 85%;
+    height: 100%;
+    float: left;
+    position: relative;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #c6ebc8;
+}
+
+#Bottom{
+    width: 100%;
+    height: 140px;
+    background-color:#00590a;
+    float: left;
+    position: relative;
+    padding: 19px;
+    box-sizing: border-box;
+}
+
+#Header > .TitleHeader{
+    color: white;
+    font-family:Arial;
+    line-height: calc(140px - 16px * 2);
+    padding-left: 45px;
+    font-size: 60px;
+}
+
+#Panel > #TitleRightPanel{
+    width: 100%;
+    height: 10%;
+    float: left;
+    position: relative;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #323232;
+    font-family:Arial;
+    font-size: 25px;
+}
+
+#LeftPanel > h1{
+    color: #323232;
+    font-family:Arial;
+    padding-left: 35px;
+    font-size: 30px;
+}
+
+#LeftPanel > .square {
+    background-color:#00590a;
+    width: 13%;
+    height: 34.5%;
+    float: left;
+    margin: 32px;
+}
+
+#LeftPanel > .FirstSquares {
+    background-color:#00590a;
+    width: 13%;
+    height: 34.5%;
+    float: left;
+    margin: 32px;
+}
+
+#Bottom > .TitleBottom{
+    color: white;
+    font-family:Arial;
+    line-height: calc(140px - 16px * 2);
+    padding-left: 50px;
+    font-size: 50px;
+}
